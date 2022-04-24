@@ -1,2 +1,14 @@
+*VER OS DETALHES NO WHATSAP*
+
 - fix after user registration bug
-- follow el plan
+
+* follow el plan
+  - setup active storage s3 to production
+  - deploy to heroku
+  - generate video entity
+  - config video&user relationship
+  - config video views(add sc tags...)
+  - install tailwind
+  - setup views with tailwind
+  - install video.js by importmaps
+  - config video.js
