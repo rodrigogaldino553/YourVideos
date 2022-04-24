@@ -1,6 +1,7 @@
 *VER OS DETALHES NO WHATSAP*
 
 - fix after user registration bug
+- fix upload devise avatar to aws
 
 * follow el plan
   - setup active storage s3 to production
