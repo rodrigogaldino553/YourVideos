@@ -7,10 +7,14 @@
 * follow el plan
   [ok] setup active storage s3 to production
   [ok] deploy to heroku
-  - generate video entity
-  - config video&user relationship
+  [ok] generate video entity
+  [ok] config video&user relationship
   - config video views(add sc tags...)
+  - install haml
+  - setup all application to haml
   - install tailwind
   - setup views with tailwind
+  - add thumb field for videos
   - install video.js by importmaps
   - config video.js
+  - config validations to video
