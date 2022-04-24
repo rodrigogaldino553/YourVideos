@@ -1,11 +1,12 @@
 *VER OS DETALHES NO WHATSAP*
 
-- fix after user registration bug
-- fix upload devise avatar to aws
+[ok] fix after user registration bug
+[ok] fix upload devise avatar to aws
+- fix bug on edit devise user avatar upload
 
 * follow el plan
-  - setup active storage s3 to production
-  - deploy to heroku
+  [ok] setup active storage s3 to production
+  [ok] deploy to heroku
   - generate video entity
   - config video&user relationship
   - config video views(add sc tags...)
