@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: psql
+  database: yourvideos
+  username: yourvideos
+  password: <%= ENV['YOURVIDEOS_DATABASE_PASSYOURVIDEOS
