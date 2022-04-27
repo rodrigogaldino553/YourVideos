@@ -1,0 +1,12 @@
+%div{:id => "#{dom_id video}"}
+  %p
+    %strong Title:
+    = video.title
+  %p
+    %strong Description:
+    = video.description
+  - if video.video.attached?
+    %p
+      %strong User:
+      %video{:controls => "ture", :preload => "metadata"}
+        %source{:src => "#{rails_blob_url(video.video)}", :type => "#{video.video.content_type}"}

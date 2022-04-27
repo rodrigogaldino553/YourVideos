@@ -1,0 +1,8 @@
+%p{:style => "color: green"}= notice
+%h1 Videos
+#videos
+  - @videos.each do |video|
+    = render video
+    %p
+      = link_to "Show this video", video
+= link_to "New video", new_video_path
