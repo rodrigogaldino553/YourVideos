@@ -77,3 +77,5 @@ end
 gem "devise", "~> 4.8"
 
 gem "aws-sdk-s3", "~> 1.113"
+
+gem "haml-rails", "~> 2.0"
